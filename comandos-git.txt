@@ -27,3 +27,9 @@
 - git checkout -b <nombre>: Crea una rama y se cambia a ella inmediatamente.
 - git checkout <nombre>: Se cambia a la rama especificada.
 - git merge <nombre>: Fusiona la rama especificada con la rama actual.
+
+3 === HISTORIAL Y DESPLAZAMIENTO ===
+git log --oneline: Muestra el historial resumido de commits con sus identificadores (hash).
+git checkout <hash>: Mueve el estado del proyecto al commit especificado (modo lectura).
+git reset --soft <hash>: Devuelve el historial al commit indicado, manteniendo los cambios en staging.
+git reset --hard <hash>: Devuelve el historial al commit indicado BORRANDO todos los cambios posteriores.
