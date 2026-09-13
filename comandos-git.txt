@@ -22,10 +22,6 @@
 - git add <archivo>: Agrega cambios del directorio de trabajo al área de preparación.
 - git commit -m "mensaje": Guarda los cambios del área de preparación en el historial de commits.
 
-
-- git add <archivo>: Envía cambios al área de preparación (Staging Area).
-- git commit -m "mensaje": Guarda los cambios del Staging Area en el historial. 
-
 2. === TRABAJO CON RAMAS ===
 - git branch <nombre>: Crea una nueva rama.
 - git checkout -b <nombre>: Crea una rama y se cambia a ella inmediatamente.
