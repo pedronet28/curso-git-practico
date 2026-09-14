@@ -55,3 +55,10 @@
 - git branch -d <rama>: Elimina una rama localmente (modo seguro, verifica fusión).
 - git branch -D <rama>: Fuerza la eliminación de una rama local borrando sus cambios.
 - git push origin --delete <rama>: Elimina la rama especificada en el repositorio remoto (GitHub).
+
+8 === TRABAJAR CON RAMAS REMOTAS (COLABORACIÓN) ===
+- git fetch origin: Descarga la lista actualizada de ramas y commits desde GitHub.
+- git branch -a: Muestra todas las ramas (locales y remotas disponibles).
+- git checkout <rama-remota>: Crea una copia local de la rama remota y se cambia a ella.
+- git pull: Descarga los últimos cambios hechos por otros en la rama actual.
+
