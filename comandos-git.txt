@@ -43,3 +43,10 @@
 - git fetch: Descarga el historial y las referencias del repositorio remoto sin alterar tus archivos locales.
 - git status: Muestra si tu rama local está al día, atrasada o adelantada respecto a origin/main (tras hacer fetch).
 - git diff main origin/main: Muestra las líneas exactas que cambian entre tu rama local y la remota.
+
+6 === SUBIR RAMAS AL REPOSITORIO REMOTO ===
+- git push origin <nombre-rama>: Suben una rama específica al repositorio remoto.
+- git push -u origin <nombre-rama>: Suben la rama y la vincula con la remota por defecto.
+- git push origin --all: Suben TODAS las ramas locales existentes al repositorio remoto.
+- git branch -r: Muestra la lista de ramas que existen en el repositorio remoto.
+- git branch -a: Muestra la lista de todas las ramas (locales y remotas).
