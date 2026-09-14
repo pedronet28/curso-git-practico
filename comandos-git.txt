@@ -38,3 +38,8 @@
 4 === ACTUALIZACIÓN REMOTA ===
 - git clone <url>: Copia un repositorio remoto a la máquina local.
 - git pull: Descarga e integra los cambios del repositorio remoto al local.
+
+5 === COMPROBACIÓN DE CAMBIOS REMOTOS ===
+- git fetch: Descarga el historial y las referencias del repositorio remoto sin alterar tus archivos locales.
+- git status: Muestra si tu rama local está al día, atrasada o adelantada respecto a origin/main (tras hacer fetch).
+- git diff main origin/main: Muestra las líneas exactas que cambian entre tu rama local y la remota.
