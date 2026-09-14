@@ -50,3 +50,8 @@
 - git push origin --all: Suben TODAS las ramas locales existentes al repositorio remoto.
 - git branch -r: Muestra la lista de ramas que existen en el repositorio remoto.
 - git branch -a: Muestra la lista de todas las ramas (locales y remotas).
+
+7 === ELIMINACIÓN DE RAMAS ===
+- git branch -d <rama>: Elimina una rama localmente (modo seguro, verifica fusión).
+- git branch -D <rama>: Fuerza la eliminación de una rama local borrando sus cambios.
+- git push origin --delete <rama>: Elimina la rama especificada en el repositorio remoto (GitHub).
