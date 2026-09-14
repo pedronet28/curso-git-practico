@@ -35,3 +35,6 @@
 - git reset --hard <hash>: Devuelve el historial al commit indicado BORRANDO todos los cambios posteriores.
 - git reset --hard HEAD~1: Borrar el último commit, traslada la cabecera al commit anterior si existe uno anterior
                            (uso con precacion!)
+4 === ACTUALIZACIÓN REMOTA ===
+- git clone <url>: Copia un repositorio remoto a la máquina local.
+- git pull: Descarga e integra los cambios del repositorio remoto al local.
